@@ -1,0 +1,137 @@
+/*-------Experiencia-------*/
+
+.experiencia {
+  padding: 120px 0;
+  background: var(--bg-secondary);
+}
+
+.experiencia__header {
+  margin-bottom: 64px;
+}
+
+/*-------Entradas-------*/
+
+.experiencia__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiencia__entry {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 48px;
+  padding: 48px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.experiencia__entry:last-child {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/*-------Metadatos-------*/
+
+.experiencia__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+.experiencia__period {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.experiencia__company {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
+/*-------Cuerpo-------*/
+
+.experiencia__body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experiencia__role {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-accent);
+  letter-spacing: -0.5px;
+}
+
+.experiencia__description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+}
+
+/*-------Tareas-------*/
+
+.experiencia__tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 0;
+}
+
+.experiencia__task {
+  position: relative;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.experiencia__task::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-weight: 300;
+}
+
+/*-------Etiquetas-------*/
+
+.experiencia__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.experiencia__tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  padding: 5px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  transition: border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.experiencia__tag:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+/*-------Responsivo-------*/
+
+@media (max-width: 768px) {
+  .experiencia__entry {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 32px 0;
+  }
+
+  .experiencia__meta {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,87 @@
+/*-------PiePagina-------*/
+
+.pie-pagina {
+  padding: 48px 0 32px;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+/*-------Contenido-------*/
+
+.pie-pagina__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pie-pagina__logo {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-accent);
+}
+
+.pie-pagina__logo-dot {
+  color: var(--accent-primary);
+}
+
+.pie-pagina__tagline {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/*-------EnlacesSociales-------*/
+
+.pie-pagina__socials {
+  display: flex;
+  gap: 24px;
+}
+
+.pie-pagina__social-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.pie-pagina__social-link:hover {
+  color: var(--accent-primary);
+}
+
+/*-------ParteInferior-------*/
+
+.pie-pagina__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pie-pagina__copyright {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.pie-pagina__built {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/*-------Responsivo-------*/
+
+@media (max-width: 768px) {
+  .pie-pagina__content {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .pie-pagina__bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}

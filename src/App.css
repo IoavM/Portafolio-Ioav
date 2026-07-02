@@ -1,0 +1,11 @@
+/*-------App-------*/
+
+.aplicacion {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aplicacion main {
+  flex: 1;
+}

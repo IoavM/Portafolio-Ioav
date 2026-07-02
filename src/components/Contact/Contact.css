@@ -1,0 +1,133 @@
+/*-------Contacto-------*/
+
+.contacto {
+  padding: 120px 0;
+  background: var(--bg-primary);
+}
+
+/*-------Cabecera-------*/
+
+.contacto__top {
+  margin-bottom: 64px;
+}
+
+.contacto__headline {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 800;
+  color: var(--text-accent);
+  letter-spacing: -1px;
+  line-height: 1.15;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.contacto__sub {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+/*-------Cuerpo-------*/
+
+.contacto__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+/*-------Info-------*/
+
+.contacto__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contacto__line {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
+  transition: padding-left var(--transition-base);
+  color: var(--text-primary);
+}
+
+.contacto__line:first-child {
+  border-top: 1px solid var(--border-color);
+}
+
+.contacto__line:hover {
+  padding-left: 12px;
+  color: var(--text-accent);
+}
+
+.contacto__line-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  min-width: 100px;
+}
+
+.contacto__line-value {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/*-------LlamadaAccion-------*/
+
+.contacto__cta {
+  flex-shrink: 0;
+  padding-top: 20px;
+}
+
+.contacto__download {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 36px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-accent);
+  background: var(--accent-gradient);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 24px rgba(108, 99, 255, 0.25);
+  transition: all var(--transition-base);
+}
+
+.contacto__download:hover {
+  color: var(--text-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(108, 99, 255, 0.35);
+}
+
+.contacto__download-arrow {
+  font-size: 1.1rem;
+  transition: transform var(--transition-fast);
+}
+
+.contacto__download:hover .contacto__download-arrow {
+  transform: translateY(3px);
+}
+
+/*-------Responsivo-------*/
+
+@media (max-width: 768px) {
+  .contacto__body {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contacto__line {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .contacto__download {
+    width: 100%;
+    justify-content: center;
+  }
+}

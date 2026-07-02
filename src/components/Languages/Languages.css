@@ -1,0 +1,69 @@
+/*-------Idiomas-------*/
+
+.idiomas {
+  padding: 80px 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/*-------Disposicion-------*/
+
+.idiomas__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.idiomas__items {
+  display: flex;
+  gap: 48px;
+}
+
+/*-------Item-------*/
+
+.idiomas__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.idiomas__name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-accent);
+}
+
+.idiomas__sep {
+  width: 24px;
+  height: 1px;
+  background: var(--border-hover);
+}
+
+.idiomas__level {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/*-------Responsivo-------*/
+
+@media (max-width: 768px) {
+  .idiomas__row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .idiomas__items {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .idiomas__items {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
