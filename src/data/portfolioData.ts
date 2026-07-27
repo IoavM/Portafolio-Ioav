@@ -11,7 +11,7 @@ export const portfolioData: PortfolioData = {
 
   about: {
     description:
-      "Soy un profesional multidisciplinario con una visión integral del desarrollo digital. Mi perfil combina habilidades técnicas en desarrollo front-end con una sólida comprensión del diseño centrado en el usuario y estrategias de e-commerce. Me apasiona crear productos digitales que no solo funcionen impecablemente, sino que ofrezcan experiencias memorables. Con experiencia en entornos empresariales reales, entiendo el puente entre las necesidades del negocio y la implementación técnica.",
+      "Soy un profesional multidisciplinario con una visión integral del desarrollo digital. Actualmente curso una Especialización en Desarrollo de Software, fortaleciendo mis conocimientos en arquitectura, desarrollo e implementación de soluciones tecnológicas. Mi perfil combina habilidades técnicas en desarrollo front-end con una sólida comprensión del diseño centrado en el usuario y estrategias de e-commerce. Me apasiona crear productos digitales que no solo funcionen impecablemente, sino que ofrezcan experiencias memorables. Con experiencia en entornos empresariales reales, entiendo el puente entre las necesidades del negocio y la implementación técnica.",
     highlights: [
       {
         icon: "01",
@@ -43,18 +43,19 @@ export const portfolioData: PortfolioData = {
   experience: [
     {
       company: "Surtitodo",
-      role: "IT & E-commerce Specialist",
+      role: "Front-End Designer & Developer",
       period: "2025",
       description:
-        "Participación activa en el equipo de tecnología y e-commerce de una de las cadenas de retail más importantes de Colombia. Responsable del diseño, desarrollo e implementación de soluciones digitales que impactaron directamente la experiencia del usuario y las operaciones comerciales online. Colaboración interdisciplinaria con equipos de tecnología, marketing y negocio para impulsar la transformación digital de la compañía.",
+        "Participación activa en el equipo de Tecnología y E-commerce de una de las cadenas de retail más importantes de Colombia. Contribución al diseño, desarrollo e implementación de soluciones digitales orientadas a optimizar procesos internos y fortalecer la experiencia del usuario dentro de la plataforma de comercio electrónico. Trabajo conjunto con equipos multidisciplinarios de Tecnología, Marketing y Negocio para impulsar iniciativas de transformación digital y la mejora continua del ecosistema digital de la compañía.",
       responsibilities: [
-        "Diseño y mejora de interfaces web centradas en la experiencia del usuario, aplicando principios de UX/UI para optimizar la conversión y usabilidad.",
-        "Desarrollo front-end de componentes e interfaces interactivas utilizando tecnologías modernas del ecosistema web.",
-        "Gestión integral del catálogo digital: publicación, categorización y optimización de productos en plataformas de e-commerce.",
+        "Diseño e implementación de interfaces web para aplicaciones de uso interno y herramientas del ecosistema e-commerce.",
+        "Desarrollo front-end de componentes e interfaces interactivas, incluyendo módulos de autenticación y gestión de usuarios, aplicando buenas prácticas de desarrollo web.",
+        "Diseño y mejora de interfaces centradas en la experiencia del usuario (UX/UI), priorizando la usabilidad, accesibilidad y consistencia visual.",
+        "Gestión integral del catálogo digital mediante la publicación, categorización y optimización de productos en plataformas de e-commerce.",
         "Estructuración y organización de información de productos de moda y vestuario para mejorar la experiencia de navegación y búsqueda.",
-        "Planificación y ejecución de campañas promocionales y comerciales digitales alineadas con los objetivos de negocio.",
-        "Colaboración directa con equipos multidisciplinarios de tecnología, marketing y operaciones comerciales.",
-        "Participación en procesos de transformación digital, incluyendo la optimización de flujos operativos en e-commerce.",
+        "Planificación y ejecución de campañas promocionales y comerciales digitales alineadas con los objetivos del negocio.",
+        "Colaboración directa con equipos multidisciplinarios de Tecnología, Marketing y Operaciones para el desarrollo de nuevas funcionalidades y la implementación de mejoras continuas.",
+        "Participación en procesos de transformación digital mediante la optimización de flujos operativos relacionados con el comercio electrónico.",
       ],
       tags: [
         "UX/UI Design",

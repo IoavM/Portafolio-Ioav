@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 export function useScrollReveal<T extends HTMLElement>(): React.RefObject<T | null> {
   const elementRef = useRef<T | null>(null);
+  const { i18n } = useTranslation();
 
   useEffect(() => {
     const element = elementRef.current;
@@ -16,18 +18,43 @@ export function useScrollReveal<T extends HTMLElement>(): React.RefObject<T | nu
           }
         });
       },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+      { threshold: 0.05, rootMargin: "0px 0px -20px 0px" }
     );
 
-    const children = element.querySelectorAll(".revelar-scroll");
-    children.forEach((child) => observer.observe(child));
+    const observeElements = () => {
+      const children = element.querySelectorAll(".revelar-scroll");
+      children.forEach((child) => {
+        const rect = child.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+          child.classList.add("revelado");
+        } else {
+          observer.observe(child);
+        }
+      });
 
-    if (element.classList.contains("revelar-scroll")) {
-      observer.observe(element);
-    }
+      if (element.classList.contains("revelar-scroll")) {
+        const rect = element.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+          element.classList.add("revelado");
+        } else {
+          observer.observe(element);
+        }
+      }
+    };
 
-    return () => observer.disconnect();
-  }, []);
+    observeElements();
+
+    const mutationObserver = new MutationObserver(() => {
+      observeElements();
+    });
+
+    mutationObserver.observe(element, { childList: true, subtree: true });
+
+    return () => {
+      observer.disconnect();
+      mutationObserver.disconnect();
+    };
+  }, [i18n.language]);
 
   return elementRef;
 }

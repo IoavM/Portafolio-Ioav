@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { portfolioData } from "../../data/portfolioData";
 import "./Hero.css";
 
 function Hero() {
+  const { t } = useTranslation();
   const { personal, contact } = portfolioData;
 
   const handleScrollTo = (sectionId: string) => {
@@ -21,12 +23,12 @@ function Hero() {
 
       <div className="inicio__content contenedor">
         <div className="inicio__text">
-          <p className="inicio__greeting">Hola, soy</p>
+          <p className="inicio__greeting">{t("hero.greeting")}</p>
           <h1 className="inicio__name">{personal.name}</h1>
-          <p className="inicio__title">{personal.title}</p>
-          <p className="inicio__subtitle">{personal.subtitle}</p>
+          <p className="inicio__title">{t("hero.title")}</p>
+          <p className="inicio__subtitle">{t("hero.subtitle")}</p>
           <div className="inicio__location">
-            <span>{personal.location}</span>
+            <span>{t("hero.location")}</span>
           </div>
 
           <div className="inicio__actions">
@@ -35,16 +37,16 @@ function Hero() {
               onClick={() => handleScrollTo("proyectos")}
               type="button"
             >
-              Ver Proyectos
+              {t("hero.viewProjects")}
               <span className="inicio__btn-arrow" aria-hidden="true">→</span>
             </button>
             <a
               className="inicio__btn inicio__btn--secondary"
               href={contact.cvUrl}
               download
-              aria-label="Descargar CV en PDF"
+              aria-label={t("hero.downloadCvAria")}
             >
-              Descargar CV
+              {t("hero.downloadCv")}
               <span className="inicio__btn-icon" aria-hidden="true">↓</span>
             </a>
           </div>
@@ -69,11 +71,11 @@ function Hero() {
                 <br />
                 {"  "}
                 <span className="inicio__code-key">role</span>:{" "}
-                <span className="inicio__code-string">"Frontend & UX/UI"</span>,
+                <span className="inicio__code-string">"{t("hero.codeRole")}"</span>,
                 <br />
                 {"  "}
                 <span className="inicio__code-key">passion</span>:{" "}
-                <span className="inicio__code-string">"Digital Products"</span>,
+                <span className="inicio__code-string">"{t("hero.codePassion")}"</span>,
                 <br />
                 {"  "}
                 <span className="inicio__code-key">available</span>:{" "}

@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { portfolioData } from "../../data/portfolioData";
 import "./Footer.css";
 
 function Footer() {
+  const { t } = useTranslation();
   const { personal, contact } = portfolioData;
   const currentYear = new Date().getFullYear();
 
@@ -14,7 +16,7 @@ function Footer() {
               {personal.name.split(" ")[0]}
               <span className="pie-pagina__logo-dot">.</span>
             </span>
-            <p className="pie-pagina__tagline">{personal.title}</p>
+            <p className="pie-pagina__tagline">{t("footer.tagline")}</p>
           </div>
 
           <div className="pie-pagina__socials" aria-label="Redes sociales">
@@ -48,10 +50,10 @@ function Footer() {
 
         <div className="pie-pagina__bottom">
           <p className="pie-pagina__copyright">
-            © {currentYear} {personal.name}. Todos los derechos reservados.
+            © {currentYear} {personal.name}. {t("footer.rights")}
           </p>
           <p className="pie-pagina__built">
-            Desarrollado con React + TypeScript
+            {t("footer.builtWith")}
           </p>
         </div>
       </div>
