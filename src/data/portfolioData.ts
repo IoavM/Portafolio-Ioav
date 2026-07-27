@@ -146,6 +146,12 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       institution: "Universidad EAFIT",
+      degree: "Especialización en Desarrollo de Software",
+      period: "2026 — En curso",
+      location: "Medellín, Colombia",
+    },
+    {
+      institution: "Universidad EAFIT",
       degree: "Diseño Interactivo",
       gpa: "4.5 / 5.0",
       period: "2022 — 2026",
