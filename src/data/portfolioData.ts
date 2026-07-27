@@ -163,18 +163,18 @@ export const portfolioData: PortfolioData = {
     {
       institution: "IBM",
       title: "Developing Front-End Apps with React",
-      year: "2025",
+      year: "2026",
       status: "En curso",
     },
     {
       institution: "Harvard",
       title: "Introduction to Cybersecurity",
-      year: "2025",
+      year: "2026",
       status: "En curso",
     },
     {
       institution: "Universidad Autónoma de Madrid",
-      title: "Introducción a la Programación en Python",
+      title: "Introducción a la Programación en C",
       year: "2021",
       status: "Completado",
       url: "https://credentials.edx.org/credentials/e6035ea926944aa98969ddb978ea66f8/",
