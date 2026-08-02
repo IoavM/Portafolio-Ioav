@@ -159,7 +159,7 @@ const resources = {
       },
       projects: {
         tag: "Proyectos",
-        title: "Trabajo Seleccionado",
+        title: "Trabajos Realizados",
         appBtn: "App",
         codeBtn: "Código",
         miniViewTitle: "Mini-vista de",
