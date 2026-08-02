@@ -218,6 +218,7 @@ export const portfolioData: PortfolioData = {
     linkedin: "https://linkedin.com/in/ioav-mizrachi-001377355",
     github: "https://github.com/IoavM",
     portfolio: "#",
-    cvUrl: "/Hv_IoavMizrachiM.pdf",
+    cvUrlEs: "/CV Ioav. 2026 Español.pdf",
+    cvUrlEn: "/CV Ioav. 2026 Inglés.pdf",
   },
 };

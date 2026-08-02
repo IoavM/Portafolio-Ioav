@@ -75,7 +75,8 @@ export interface ContactInfo {
   linkedin: string;
   github: string;
   portfolio: string;
-  cvUrl: string;
+  cvUrlEs: string;
+  cvUrlEn: string;
 }
 
 export interface PortfolioData {

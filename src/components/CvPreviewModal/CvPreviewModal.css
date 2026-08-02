@@ -1,0 +1,253 @@
+/*-------CV Preview Modal-------*/
+
+.cv-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(8px);
+  animation: cvFadeIn 0.3s ease;
+}
+
+.cv-modal__container {
+  width: 100%;
+  max-width: 900px;
+  height: 85vh;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: cvScaleUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.cv-modal__header {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cv-modal__dots {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.cv-modal__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.cv-modal__dot--red { background: #ff5f56; cursor: pointer; }
+.cv-modal__dot--yellow { background: #ffbd2e; }
+.cv-modal__dot--green { background: #27c93f; }
+
+/*-------Language Tabs-------*/
+
+.cv-modal__tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.cv-modal__tab {
+  padding: 6px 18px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  border-radius: 6px;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  border: none;
+  background: none;
+}
+
+.cv-modal__tab:hover {
+  color: var(--text-secondary);
+}
+
+.cv-modal__tab--active {
+  background: var(--accent-gradient);
+  color: var(--text-accent);
+}
+
+.cv-modal__tab--active:hover {
+  color: var(--text-accent);
+}
+
+/*-------Actions-------*/
+
+.cv-modal__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.cv-modal__btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  transition: color var(--transition-fast);
+  padding: 4px;
+}
+
+.cv-modal__btn:hover {
+  color: var(--text-accent);
+}
+
+.cv-modal__download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-accent);
+  background: var(--accent-gradient);
+  border-radius: 6px;
+  transition: all var(--transition-fast);
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.cv-modal__download-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(108, 99, 255, 0.35);
+  color: var(--text-accent);
+}
+
+.cv-modal__download-icon {
+  font-size: 0.9rem;
+  transition: transform var(--transition-fast);
+}
+
+.cv-modal__download-btn:hover .cv-modal__download-icon {
+  transform: translateY(2px);
+}
+
+/*-------Body-------*/
+
+.cv-modal__body {
+  flex: 1;
+  position: relative;
+  background: #525659;
+  overflow: hidden;
+}
+
+.cv-modal__iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.cv-modal__loader {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--text-muted);
+}
+
+.cv-modal__spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(108, 99, 255, 0.1);
+  border-top-color: var(--accent-primary);
+  border-radius: 50%;
+  animation: cvSpin 1s linear infinite;
+}
+
+.cv-modal__loader-text {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+/*-------Animations-------*/
+
+@keyframes cvFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes cvScaleUp {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes cvSpin {
+  to { transform: rotate(360deg); }
+}
+
+/*-------Responsive-------*/
+
+@media (max-width: 768px) {
+  .cv-modal {
+    padding: 10px;
+  }
+
+  .cv-modal__container {
+    height: 92vh;
+  }
+
+  .cv-modal__header {
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cv-modal__dots {
+    display: none;
+  }
+
+  .cv-modal__tabs {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cv-modal__tab {
+    flex: 1;
+    text-align: center;
+    padding: 6px 12px;
+  }
+
+  .cv-modal__actions {
+    order: 1;
+    margin-left: auto;
+  }
+
+  .cv-modal__download-btn span:not(.cv-modal__download-icon) {
+    display: none;
+  }
+
+  .cv-modal__download-btn {
+    padding: 6px 10px;
+  }
+}
