@@ -285,6 +285,7 @@ const resources = {
         download: "Descargar",
         close: "Cerrar",
         loading: "Cargando CV...",
+        error: "No se pudo cargar el CV. Intenta descargarlo directamente.",
       },
       footer: {
         tagline: "Front-End Developer & UX/UI Designer",
@@ -576,6 +577,7 @@ const resources = {
         download: "Download",
         close: "Close",
         loading: "Loading CV...",
+        error: "Could not load the CV. Try downloading it directly.",
       },
       footer: {
         tagline: "Front-End Developer & UX/UI Designer",

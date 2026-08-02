@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { portfolioData } from "../../data/portfolioData";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
-import CvPreviewModal from "../CvPreviewModal/CvPreviewModal";
+
+const CvPreviewModal = lazy(() => import("../CvPreviewModal/CvPreviewModal"));
 import "./Contact.css";
 
 function Contact() {
@@ -97,10 +98,14 @@ function Contact() {
         </div>
       </div>
 
-      <CvPreviewModal
-        isOpen={isCvModalOpen}
-        onClose={() => setIsCvModalOpen(false)}
-      />
+      {isCvModalOpen && (
+        <Suspense fallback={null}>
+          <CvPreviewModal
+            isOpen={isCvModalOpen}
+            onClose={() => setIsCvModalOpen(false)}
+          />
+        </Suspense>
+      )}
     </section>
   );
 }

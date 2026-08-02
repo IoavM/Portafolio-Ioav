@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { portfolioData } from "../../data/portfolioData";
-import CvPreviewModal from "../CvPreviewModal/CvPreviewModal";
+
+const CvPreviewModal = lazy(() => import("../CvPreviewModal/CvPreviewModal"));
 import "./Hero.css";
 
 function Hero() {
@@ -106,10 +107,14 @@ function Hero() {
         <span className="inicio__scroll-line" />
       </div>
 
-      <CvPreviewModal
-        isOpen={isCvModalOpen}
-        onClose={() => setIsCvModalOpen(false)}
-      />
+      {isCvModalOpen && (
+        <Suspense fallback={null}>
+          <CvPreviewModal
+            isOpen={isCvModalOpen}
+            onClose={() => setIsCvModalOpen(false)}
+          />
+        </Suspense>
+      )}
     </section>
   );
 }
