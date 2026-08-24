@@ -73,20 +73,24 @@ export const portfolioData: PortfolioData = {
       category: "Desarrollo",
       icon: "DEV",
       skills: [
-        { name: "Python", level: 90, levelText: "Nivel alto" },
         {
           name: "Front-End",
           subskills: ["React", "JavaScript", "HTML", "CSS"],
           level: 90,
           levelText: "Nivel alto",
         },
+        { name: "Python", level: 90, levelText: "Nivel alto" },
+        {
+          name: "Desarrollo de Software",
+          subskills: ["SDD"],
+        },
         {
           name: "Bases de datos",
-          subskills: ["SQL"],
+          subskills: ["SQL", "MongoDB"],
           level: 90,
           levelText: "Nivel alto",
         },
-        { name: "Unity", level: 90, levelText: "Nivel alto" },
+        { name: "PHP", level: 70, levelText: "Nivel Medio" },
         { name: "Node.js", level: 70, levelText: "Nivel Medio" },
       ],
     },
@@ -218,7 +222,7 @@ export const portfolioData: PortfolioData = {
     linkedin: "https://linkedin.com/in/ioav-mizrachi-001377355",
     github: "https://github.com/IoavM",
     portfolio: "#",
-    cvUrlEs: "/CV Ioav. 2026 Español.pdf",
-    cvUrlEn: "/CV Ioav. 2026 Inglés.pdf",
+    cvUrlEs: "/CV-Ioav-Mizrachi-Spanish-2026.pdf",
+    cvUrlEn: "/CV-Ioav-Mizrachi-English-2026.pdf",
   },
 };
