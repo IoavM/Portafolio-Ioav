@@ -131,6 +131,15 @@ export const portfolioData: PortfolioData = {
       demo: "https://i-homotic.vercel.app/",
     },
     {
+      title: "Arus ERP",
+      image: "/projects/arus.png",
+      description:
+        "Desarrollado bajo la metodología SDD (Spec-Driven Development), es un sistema ERP web multi-tenant diseñado para PYMEs y micronegocios. Centraliza catálogo de productos, compras, gestión de clientes, terminal de venta con deducción atómica de stock y dashboard ejecutivo con roles (RBAC).",
+      technologies: ["React", "FastAPI", "Python", "PostgreSQL", "Docker", "SDD"],
+      repository: "https://github.com/IoavM/Arus",
+      demo: "https://arus-two.vercel.app/",
+    },
+    {
       title: "MACABI",
       image: "/projects/macabi.webp",
       description: "Sitio web del complejo deportivo de canchas sintéticas en Popayán, Colombia. Permite explorar las instalaciones de primer nivel, consultar la escuela de fútbol y agilizar el alquiler de canchas por WhatsApp.",
