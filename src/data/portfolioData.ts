@@ -81,10 +81,6 @@ export const portfolioData: PortfolioData = {
         },
         { name: "Python", level: 90, levelText: "Nivel alto" },
         {
-          name: "Desarrollo de Software",
-          subskills: ["SDD"],
-        },
-        {
           name: "Bases de datos",
           subskills: ["SQL", "MongoDB"],
           level: 90,
@@ -92,6 +88,10 @@ export const portfolioData: PortfolioData = {
         },
         { name: "PHP", level: 70, levelText: "Nivel Medio" },
         { name: "Node.js", level: 70, levelText: "Nivel Medio" },
+        {
+          name: "Desarrollo de Software",
+          subskills: ["SDD"],
+        },
       ],
     },
     {

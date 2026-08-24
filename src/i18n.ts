@@ -109,10 +109,6 @@ const resources = {
               },
               { name: "Python", level: 90, levelText: "Nivel alto" },
               {
-                name: "Desarrollo de Software",
-                subskills: ["SDD"],
-              },
-              {
                 name: "Bases de datos",
                 subskills: ["SQL", "MongoDB"],
                 level: 90,
@@ -120,6 +116,10 @@ const resources = {
               },
               { name: "PHP", level: 70, levelText: "Nivel Medio" },
               { name: "Node.js", level: 70, levelText: "Nivel Medio" },
+              {
+                name: "Desarrollo de Software",
+                subskills: ["SDD"],
+              },
             ],
           },
           {
@@ -405,10 +405,6 @@ const resources = {
               },
               { name: "Python", level: 90, levelText: "High Level" },
               {
-                name: "Software Development",
-                subskills: ["SDD"],
-              },
-              {
                 name: "Databases",
                 subskills: ["SQL", "MongoDB"],
                 level: 90,
@@ -416,6 +412,10 @@ const resources = {
               },
               { name: "PHP", level: 70, levelText: "Mid Level" },
               { name: "Node.js", level: 70, levelText: "Mid Level" },
+              {
+                name: "Software Development",
+                subskills: ["SDD"],
+              },
             ],
           },
           {
