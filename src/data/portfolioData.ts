@@ -134,7 +134,7 @@ export const portfolioData: PortfolioData = {
       title: "Arus ERP",
       image: "/projects/arus.png",
       description:
-        "MVP (Producto Mínimo Viable) desarrollado bajo la metodología SDD (Spec-Driven Development), enfocado en la gestión de PYMEs y micronegocios. Centraliza catálogo de productos, compras, clientes, terminal de venta con deducción atómica de stock y dashboard con roles (RBAC).",
+        "Arus es un MVP de un ERP web multi-tenant desarrollado bajo la metodología SDD (Spec-Driven Development) para la gestión de PYMEs y micronegocios. Centraliza catálogo de productos, compras, clientes, terminal de venta con deducción atómica de stock y dashboard con roles (RBAC).",
       technologies: ["React", "FastAPI", "Python", "PostgreSQL", "Docker", "SDD"],
       repository: "https://github.com/IoavM/Arus",
       demo: "https://arus-two.vercel.app/",

@@ -183,7 +183,7 @@ const resources = {
             title: "Arus ERP",
             image: "/projects/arus.png",
             description:
-              "MVP (Producto Mínimo Viable) desarrollado bajo la metodología SDD (Spec-Driven Development), enfocado en la gestión de PYMEs y micronegocios. Centraliza catálogo de productos, compras, clientes, terminal de venta con deducción atómica de stock y dashboard con roles (RBAC).",
+              "Arus es un MVP de un ERP web multi-tenant desarrollado bajo la metodología SDD (Spec-Driven Development) para la gestión de PYMEs y micronegocios. Centraliza catálogo de productos, compras, clientes, terminal de venta con deducción atómica de stock y dashboard con roles (RBAC).",
             technologies: ["React", "FastAPI", "Python", "PostgreSQL", "Docker", "SDD"],
             repository: "https://github.com/IoavM/Arus",
             demo: "https://arus-two.vercel.app/",
@@ -488,7 +488,7 @@ const resources = {
             title: "Arus ERP",
             image: "/projects/arus.png",
             description:
-              "MVP (Minimum Viable Product) developed under the SDD (Spec-Driven Development) methodology for SME and small business management. Features product catalog, purchases, customers, atomic sales terminal with real-time stock deduction, and an executive dashboard with RBAC.",
+              "Arus is a multi-tenant web ERP MVP developed under the SDD (Spec-Driven Development) methodology for SME and small business management. Features product catalog, purchases, customers, atomic sales terminal with real-time stock deduction, and an executive dashboard with RBAC.",
             technologies: ["React", "FastAPI", "Python", "PostgreSQL", "Docker", "SDD"],
             repository: "https://github.com/IoavM/Arus",
             demo: "https://arus-two.vercel.app/",
