@@ -184,7 +184,15 @@ export const portfolioData: PortfolioData = {
       institution: "IBM",
       title: "Developing Front-End Apps with React",
       year: "2026",
-      status: "En curso",
+      status: "Completado",
+      url: "https://courses.edx.org/certificates/4cfbfa08af3145079f855363b1263c8b",
+    },
+    {
+      institution: "Microsoft",
+      title: "Backend APIs & Microservices",
+      year: "2026",
+      status: "Completado",
+      url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333?_gl=1*1czq877*_gcl_au*MTcxMDI5NDIyMS4xNzgyOTY3MDY3*_ga*NDgzMDg0MTczLjE3ODI5NjcwNjc.*_ga_D3KS4KMDT0*czE3ODI5NjcwNjckbzEkZzEkdDE3ODI5NjcyMjkkajYwJGwwJGgw",
     },
     {
       institution: "Harvard",
@@ -198,13 +206,6 @@ export const portfolioData: PortfolioData = {
       year: "2021",
       status: "Completado",
       url: "https://credentials.edx.org/credentials/e6035ea926944aa98969ddb978ea66f8/",
-    },
-    {
-      institution: "Microsoft",
-      title: "Backend APIs & Microservices",
-      year: "2026",
-      status: "Completado",
-      url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333?_gl=1*1czq877*_gcl_au*MTcxMDI5NDIyMS4xNzgyOTY3MDY3*_ga*NDgzMDg0MTczLjE3ODI5NjcwNjc.*_ga_D3KS4KMDT0*czE3ODI5NjcwNjckbzEkZzEkdDE3ODI5NjcyMjkkajYwJGwwJGgw",
     },
   ],
 
