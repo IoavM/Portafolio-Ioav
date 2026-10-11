@@ -140,6 +140,15 @@ export const portfolioData: PortfolioData = {
       demo: "https://arus-two.vercel.app/",
     },
     {
+      title: "TaskFlow",
+      image: "/projects/taskflow.webp",
+      description:
+        "Plataforma inteligente de gestión de tareas y cronograma semanal con estética Glassmorphism. Integra asistente de planificación con IA (Gemini), dictado por voz, organización por bloques de tiempo e integración con Spotify.",
+      technologies: ["React", "TypeScript", "TailwindCSS", "FastAPI", "Python", "PostgreSQL"],
+      repository: "https://github.com/IoavM/TaskFlow",
+      demo: "https://task-flow-silk-seven.vercel.app/",
+    },
+    {
       title: "MACABI",
       image: "/projects/macabi.webp",
       description: "Sitio web del complejo deportivo de canchas sintéticas en Popayán, Colombia. Permite explorar las instalaciones de primer nivel, consultar la escuela de fútbol y agilizar el alquiler de canchas por WhatsApp.",

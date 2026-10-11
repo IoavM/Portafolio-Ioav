@@ -189,6 +189,15 @@ const resources = {
             demo: "https://arus-two.vercel.app/",
           },
           {
+            title: "TaskFlow",
+            image: "/projects/taskflow.webp",
+            description:
+              "Plataforma inteligente de gestión de tareas y cronograma semanal con estética Glassmorphism. Integra asistente de planificación con IA (Gemini), dictado por voz, organización por bloques de tiempo e integración con Spotify.",
+            technologies: ["React", "TypeScript", "TailwindCSS", "FastAPI", "Python", "PostgreSQL"],
+            repository: "https://github.com/IoavM/TaskFlow",
+            demo: "https://task-flow-silk-seven.vercel.app/",
+          },
+          {
             title: "MACABI",
             image: "/projects/macabi.webp",
             description:
@@ -493,6 +502,15 @@ const resources = {
             technologies: ["React", "FastAPI", "Python", "PostgreSQL", "Docker", "SDD"],
             repository: "https://github.com/IoavM/Arus",
             demo: "https://arus-two.vercel.app/",
+          },
+          {
+            title: "TaskFlow",
+            image: "/projects/taskflow.webp",
+            description:
+              "Intelligent task management and weekly schedule platform with Glassmorphism aesthetics. Features smart AI task planning with Gemini, voice dictation, interactive time blocks, and Spotify integration.",
+            technologies: ["React", "TypeScript", "TailwindCSS", "FastAPI", "Python", "PostgreSQL"],
+            repository: "https://github.com/IoavM/TaskFlow",
+            demo: "https://task-flow-silk-seven.vercel.app/",
           },
           {
             title: "MACABI",
