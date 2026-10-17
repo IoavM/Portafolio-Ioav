@@ -6,7 +6,7 @@ const resources = {
     translation: {
       navbar: {
         inicio: "Inicio",
-        acerca: "Sobre Mí",
+        acerca: "Sobre Míí",
         experiencia: "Experiencia",
         habilidades: "Skills",
         proyectos: "Proyectos",
@@ -17,7 +17,7 @@ const resources = {
       },
       hero: {
         greeting: "Hola, soy",
-        title: "Front-End Developer & UX/UI Designer",
+        title: "Frontend & Software Developer | UI/UX Designer",
         subtitle:
           "Transformo ideas en experiencias digitales excepcionales. Combino desarrollo front-end, diseño UX/UI y pensamiento de producto para crear soluciones que impactan.",
         location: "Medellín, Colombia",
@@ -30,7 +30,7 @@ const resources = {
         codePassion: "Productos Digitales",
       },
       about: {
-        tag: "Sobre Mí",
+        tag: "Sobre Míí",
         description:
           "Soy un profesional multidisciplinario con una visión integral del desarrollo digital. Actualmente curso una Especialización en Desarrollo de Software, fortaleciendo mis conocimientos en arquitectura, desarrollo e implementación de soluciones tecnológicas. Mi perfil combina habilidades técnicas en desarrollo front-end con una sólida comprensión del diseño centrado en el usuario y estrategias de e-commerce. Me apasiona crear productos digitales que no solo funcionen impecablemente, sino que ofrezcan experiencias memorables. Con experiencia en entornos empresariales reales, entiendo el puente entre las necesidades del negocio y la implementación técnica.",
         highlights: [
@@ -67,7 +67,7 @@ const resources = {
         areas: "Áreas",
         items: [
           {
-            company: "Surtitodo",
+            company: "SURTITODO S.A.S",
             role: "Front-End Designer & Developer",
             period: "2025",
             description:
@@ -311,7 +311,7 @@ const resources = {
         error: "No se pudo cargar el CV. Intenta descargarlo directamente.",
       },
       footer: {
-        tagline: "Front-End Developer & UX/UI Designer",
+        tagline: "Frontend & Software Developer | UI/UX Designer",
         rights: "Todos los derechos reservados.",
         builtWith: "Desarrollado con React + TypeScript",
       },
@@ -332,7 +332,7 @@ const resources = {
       },
       hero: {
         greeting: "Hi, I'm",
-        title: "Front-End Developer & UX/UI Designer",
+        title: "Frontend & Software Developer | UI/UX Designer",
         subtitle:
           "I transform ideas into exceptional digital experiences. Combining front-end development, UX/UI design, and product thinking to build impactful solutions.",
         location: "Medellín, Colombia",
@@ -382,7 +382,7 @@ const resources = {
         areas: "Areas",
         items: [
           {
-            company: "Surtitodo",
+            company: "SURTITODO S.A.S",
             role: "Front-End Designer & Developer",
             period: "2025",
             description:
@@ -626,7 +626,7 @@ const resources = {
         error: "Could not load the CV. Try downloading it directly.",
       },
       footer: {
-        tagline: "Front-End Developer & UX/UI Designer",
+        tagline: "Frontend & Software Developer | UI/UX Designer",
         rights: "All rights reserved.",
         builtWith: "Built with React + TypeScript",
       },

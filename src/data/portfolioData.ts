@@ -3,119 +3,124 @@ import type { PortfolioData } from "../types/types";
 export const portfolioData: PortfolioData = {
   personal: {
     name: "Ioav Mizrachi",
-    title: "Front-End Developer & UX/UI Designer",
+    title: "Frontend & Software Developer | UI/UX Designer",
     subtitle:
-      "Transformo ideas en experiencias digitales excepcionales. Combino desarrollo front-end, diseño UX/UI y pensamiento de producto para crear soluciones que impactan.",
-    location: "Medellín, Colombia",
+      "Diseñador Interactivo y estudiante de Especialización en Desarrollo de Software. Especializado en Front-End (React, TypeScript), Python, arquitecturas web y diseño UI/UX para crear productos digitales que impactan.",
+    location: "Medellín, Antioquia, Colombia",
   },
 
   about: {
     description:
-      "Soy un profesional multidisciplinario con una visión integral del desarrollo digital. Actualmente curso una Especialización en Desarrollo de Software, fortaleciendo mis conocimientos en arquitectura, desarrollo e implementación de soluciones tecnológicas. Mi perfil combina habilidades técnicas en desarrollo front-end con una sólida comprensión del diseño centrado en el usuario y estrategias de e-commerce. Me apasiona crear productos digitales que no solo funcionen impecablemente, sino que ofrezcan experiencias memorables. Con experiencia en entornos empresariales reales, entiendo el puente entre las necesidades del negocio y la implementación técnica.",
+      "Diseñador Interactivo con sólidas habilidades en el desarrollo de aplicaciones web y soluciones digitales. Actualmente curso una Especialización en Desarrollo de Software, fortaleciendo mi formación en ingeniería y desarrollo de soluciones tecnológicas. Me especializo en programación y desarrollo web, con un alto nivel de competencia en Python y Front-End, especialmente en React, JavaScript, HTML y CSS. Cuento con sólidos conocimientos en bases de datos relacionales y no relacionales, diseño UX/UI y desarrollo de aplicaciones digitales. Soy una persona resolutiva, con capacidad para trabajar en equipo y adaptarme rápidamente a nuevos retos, comprometido con la entrega de soluciones funcionales y de calidad.",
     highlights: [
       {
         icon: "01",
         title: "Front-End Development",
         description:
-          "Interfaces modernas con React, TypeScript y arquitecturas escalables.",
+          "Interfaces modernas con React, TypeScript, JavaScript y arquitecturas escalables.",
       },
       {
         icon: "02",
-        title: "UX/UI Design",
+        title: "Software Engineering & Python",
         description:
-          "Diseño centrado en el usuario, wireframing, prototipado y design systems.",
+          "Desarrollo de software (SDD), APIs, microservicios y bases de datos relacionales y NoSQL.",
       },
       {
         icon: "03",
-        title: "E-commerce",
+        title: "UI/UX & Product Design",
         description:
-          "Gestión de catálogos, publicación de productos y campañas digitales.",
+          "Diseño centrado en el usuario, wireframing, prototipado en Figma y design systems consistentes.",
       },
       {
         icon: "04",
-        title: "Product Thinking",
+        title: "E-commerce & Business Impact",
         description:
-          "De la investigación y el diseño hasta la implementación y producción.",
+          "Optimización de plataformas e-commerce, gestión de catálogos y análisis de datos para toma de decisiones.",
       },
     ],
   },
 
   experience: [
     {
-      company: "Surtitodo",
-      role: "Front-End Designer & Developer",
+      company: "SURTITODO S.A.S",
+      role: "Frontend Designer & Developer",
       period: "2025",
       description:
-        "Participación activa en el equipo de Tecnología y E-commerce de una de las cadenas de retail más importantes de Colombia. Contribución al diseño, desarrollo e implementación de soluciones digitales orientadas a optimizar procesos internos y fortalecer la experiencia del usuario dentro de la plataforma de comercio electrónico. Trabajo conjunto con equipos multidisciplinarios de Tecnología, Marketing y Negocio para impulsar iniciativas de transformación digital y la mejora continua del ecosistema digital de la compañía.",
+        "Participé en el equipo de Tecnología y E-commerce, contribuyendo al desarrollo de soluciones digitales para optimizar procesos internos y fortalecer la experiencia de usuario dentro de la plataforma de comercio electrónico. Colaboré con equipos multidisciplinarios en iniciativas de transformación digital, aportando al desarrollo de interfaces, funcionalidades y mejoras orientadas al negocio.",
       responsibilities: [
-        "Diseño e implementación de interfaces web para aplicaciones de uso interno y herramientas del ecosistema e-commerce.",
-        "Desarrollo front-end de componentes e interfaces interactivas, incluyendo módulos de autenticación y gestión de usuarios, aplicando buenas prácticas de desarrollo web.",
-        "Diseño y mejora de interfaces centradas en la experiencia del usuario (UX/UI), priorizando la usabilidad, accesibilidad y consistencia visual.",
-        "Gestión integral del catálogo digital mediante la publicación, categorización y optimización de productos en plataformas de e-commerce.",
-        "Estructuración y organización de información de productos de moda y vestuario para mejorar la experiencia de navegación y búsqueda.",
-        "Planificación y ejecución de campañas promocionales y comerciales digitales alineadas con los objetivos del negocio.",
-        "Colaboración directa con equipos multidisciplinarios de Tecnología, Marketing y Operaciones para el desarrollo de nuevas funcionalidades y la implementación de mejoras continuas.",
-        "Participación en procesos de transformación digital mediante la optimización de flujos operativos relacionados con el comercio electrónico.",
+        "Diseñé e implementé interfaces web para aplicaciones y herramientas internas dentro del ecosistema de comercio electrónico.",
+        "Desarrollé funcionalidades front-end, incluyendo módulos de autenticación y gestión de usuarios, aplicando buenas prácticas de desarrollo.",
+        "Contribuí a mejorar la experiencia digital de los usuarios mediante interfaces intuitivas y funcionales, alineadas con principios de UX/UI.",
+        "Colaboré estrechamente con los equipos de Tecnología, Marketing y Negocio para implementar mejoras continuas y atender las necesidades del negocio.",
+        "Gestioné y optimicé la información del catálogo de productos, realizando seguimiento al inventario y a los procesos de publicación para garantizar datos precisos y consistentes.",
+        "Monitoreé y analicé datos de campañas comerciales, evaluando sus resultados e impacto para apoyar la toma de decisiones y futuras mejoras.",
+        "Supervisé los procesos de publicación de productos, utilizando datos e indicadores para identificar pendientes, inconsistencias y oportunidades de mejora.",
+        "Participé en la ejecución de campañas comerciales y lanzamientos de e-commerce, realizando seguimiento a su desempeño y resultados.",
       ],
       tags: [
-        "UX/UI Design",
+        "React",
         "Front-End",
+        "UX/UI Design",
         "E-commerce",
         "Product Thinking",
-        "Digital Marketing",
-        "Agile",
+        "Agile / Scrum",
       ],
     },
   ],
 
   skills: [
     {
-      category: "Desarrollo",
+      category: "Desarrollo & Software",
       icon: "DEV",
       skills: [
         {
           name: "Front-End",
           subskills: ["React", "JavaScript", "HTML", "CSS"],
           level: 90,
-          levelText: "Nivel alto",
+          levelText: "Avanzado",
         },
-        { name: "Python", level: 90, levelText: "Nivel alto" },
+        { name: "Python", level: 90, levelText: "Avanzado" },
         {
-          name: "Bases de datos",
+          name: "Bases de Datos",
           subskills: ["SQL", "MongoDB"],
           level: 90,
-          levelText: "Nivel alto",
+          levelText: "Avanzado",
         },
-        { name: "PHP", level: 70, levelText: "Nivel Medio" },
-        { name: "Node.js", level: 70, levelText: "Nivel Medio" },
+        { name: "Node.js", level: 70, levelText: "Intermedio" },
+        { name: "PHP", level: 70, levelText: "Intermedio" },
         {
           name: "Desarrollo de Software",
           subskills: ["SDD"],
+          level: 90,
+          levelText: "Avanzado",
         },
       ],
     },
     {
-      category: "Diseño y Creatividad",
+      category: "Diseño & Experiencia Interactiva",
       icon: "UX",
       skills: [
-        { name: "Figma", level: 90, levelText: "Nivel Alto" },
-        { name: "Photoshop", level: 70, levelText: "Nivel Medio" },
-        { name: "Illustrator", level: 70, levelText: "Nivel Medio" },
+        { name: "Figma (UI/UX)", level: 90, levelText: "Avanzado" },
+        { name: "Unity", level: 90, levelText: "Avanzado" },
+        { name: "Adobe Photoshop", level: 70, levelText: "Intermedio" },
+        { name: "Adobe Illustrator", level: 70, levelText: "Intermedio" },
       ],
     },
     {
-      category: "Análisis y Gestión",
+      category: "Gestión & Análisis",
       icon: "PM",
       skills: [
         {
-          name: "Análisis de datos",
+          name: "Análisis de Datos",
           subskills: ["R", "Excel"],
           level: 70,
-          levelText: "Nivel Medio",
+          levelText: "Intermedio",
         },
         {
-          name: "Gestión de proyectos",
-          subskills: ["SCRUM", "Azure DevOps", "Trello"],
+          name: "Gestión de Proyectos",
+          subskills: ["Scrum", "Azure DevOps", "Trello"],
+          level: 90,
+          levelText: "Avanzado",
         },
       ],
     },
@@ -125,7 +130,8 @@ export const portfolioData: PortfolioData = {
     {
       title: "I-HOMOTIC",
       image: "/projects/ihomotic.webp",
-      description: "Plataforma interactiva de domótica colombiana que permite simular y presupuestar la automatización de espacios. Incluye visualizador 3D interactivo y estimación de ahorro energético.",
+      description:
+        "Plataforma interactiva de domótica colombiana que permite simular y presupuestar la automatización de espacios. Incluye visualizador 3D interactivo y estimación de ahorro energético.",
       technologies: ["React", "TypeScript", "Vite", "Vanilla CSS"],
       repository: "https://github.com/IoavM/I-HOMOTIC",
       demo: "https://i-homotic.vercel.app/",
@@ -151,7 +157,8 @@ export const portfolioData: PortfolioData = {
     {
       title: "MACABI",
       image: "/projects/macabi.webp",
-      description: "Sitio web del complejo deportivo de canchas sintéticas en Popayán, Colombia. Permite explorar las instalaciones de primer nivel, consultar la escuela de fútbol y agilizar el alquiler de canchas por WhatsApp.",
+      description:
+        "Sitio web del complejo deportivo de canchas sintéticas en Popayán, Colombia. Permite explorar las instalaciones de primer nivel, consultar la escuela de fútbol y agilizar el alquiler de canchas por WhatsApp.",
       technologies: ["React", "JavaScript", "Vite", "Vanilla CSS"],
       repository: "https://github.com/IoavM/Macabi",
       demo: "https://macabi.vercel.app/",
@@ -159,7 +166,8 @@ export const portfolioData: PortfolioData = {
     {
       title: "FileMaster",
       image: "/projects/filemaster.png",
-      description: "Plataforma web todo en uno para procesar PDFs (unir, dividir por rango), comprimir imágenes, eliminar fondos con IA y convertir formatos. Diseñado con UX premium y descarga automática en ZIP por lotes.",
+      description:
+        "Plataforma web todo en uno para procesar PDFs (unir, dividir por rango), comprimir imágenes, eliminar fondos con IA y convertir formatos. Diseñado con UX premium y descarga automática en ZIP por lotes.",
       technologies: ["React", "TypeScript", "FastAPI", "Python", "TailwindCSS"],
       repository: "https://github.com/IoavM/FileMaster",
       demo: "https://file-master-chi.vercel.app/",
@@ -170,21 +178,15 @@ export const portfolioData: PortfolioData = {
     {
       institution: "Universidad EAFIT",
       degree: "Especialización en Desarrollo de Software",
-      period: "2026 — En curso",
+      period: "2026 – En curso",
       location: "Medellín, Colombia",
     },
     {
       institution: "Universidad EAFIT",
       degree: "Diseño Interactivo",
       gpa: "4.5 / 5.0",
-      period: "2022 — 2026",
+      period: "2022 – 2026",
       location: "Medellín, Colombia",
-    },
-    {
-      institution: "Colegio Colombo Francés",
-      degree: "Bachiller",
-      period: "2021",
-      location: "Popayán, Colombia",
     },
   ],
 
@@ -193,7 +195,7 @@ export const portfolioData: PortfolioData = {
       institution: "IBM",
       title: "Developing Front-End Apps with React",
       year: "2026",
-      status: "Completado",
+      status: "En curso",
       url: "https://courses.edx.org/certificates/4cfbfa08af3145079f855363b1263c8b",
     },
     {
@@ -201,7 +203,7 @@ export const portfolioData: PortfolioData = {
       title: "Backend APIs & Microservices",
       year: "2026",
       status: "Completado",
-      url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333?_gl=1*1czq877*_gcl_au*MTcxMDI5NDIyMS4xNzgyOTY3MDY3*_ga*NDgzMDg0MTczLjE3ODI5NjcwNjc.*_ga_D3KS4KMDT0*czE3ODI5NjcwNjckbzEkZzEkdDE3ODI5NjcyMjkkajYwJGwwJGgw",
+      url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333",
     },
     {
       institution: "Universidad Autónoma de Madrid",
@@ -221,13 +223,13 @@ export const portfolioData: PortfolioData = {
   softSkills: [
     "Resolución de Problemas",
     "Comunicación Efectiva",
-    "Trabajo en Equipo",
-    "Adaptabilidad Tecnológica",
+    "Trabajo en Equipo y Colaboración",
+    "Adaptabilidad a Nuevas Tecnologías",
     "Atención al Detalle",
-    "Innovación",
+    "Compromiso con la Innovación",
     "Liderazgo",
     "Creatividad",
-    "Aprendizaje Rápido",
+    "Facilidad de Aprendizaje",
   ],
 
   languages: [
@@ -240,7 +242,7 @@ export const portfolioData: PortfolioData = {
     phone: "+57 301 403 2120",
     linkedin: "https://linkedin.com/in/ioav-mizrachi-001377355",
     github: "https://github.com/IoavM",
-    portfolio: "#",
+    portfolio: "https://portafolio-ioav.vercel.app/",
     cvUrlEs: "/CV-Ioav-Mizrachi-Spanish-2026.pdf",
     cvUrlEn: "/CV-Ioav-Mizrachi-English-2026.pdf",
   },
