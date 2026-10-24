@@ -107,18 +107,18 @@ const resources = {
                 level: 90,
                 levelText: "Nivel alto",
               },
+              { name: "Python", level: 90, levelText: "Nivel alto" },
+              {
+                name: "Bases de datos",
+                subskills: ["PostgreSQL", "MySQL", "MongoDB"],
+                level: 90,
+                levelText: "Nivel alto",
+              },
               {
                 name: "Back-End",
                 subskills: ["FastAPI", ".NET", "Node.js", "PHP", "APIs REST"],
                 level: 70,
                 levelText: "Intermedio",
-              },
-              { name: "Python", level: 90, levelText: "Nivel alto" },
-              {
-                name: "Bases de datos",
-                subskills: ["SQL", "MongoDB"],
-                level: 90,
-                levelText: "Nivel alto",
               },
               {
                 name: "Arquitectura de Software",
@@ -434,18 +434,18 @@ const resources = {
                 level: 90,
                 levelText: "High Level",
               },
+              { name: "Python", level: 90, levelText: "High Level" },
+              {
+                name: "Databases",
+                subskills: ["PostgreSQL", "MySQL", "MongoDB"],
+                level: 90,
+                levelText: "High Level",
+              },
               {
                 name: "Back-End",
                 subskills: ["FastAPI", ".NET", "Node.js", "PHP", "REST APIs"],
                 level: 70,
                 levelText: "Intermediate",
-              },
-              { name: "Python", level: 90, levelText: "High Level" },
-              {
-                name: "Databases",
-                subskills: ["SQL", "MongoDB"],
-                level: 90,
-                levelText: "High Level",
               },
               {
                 name: "Software Architecture",

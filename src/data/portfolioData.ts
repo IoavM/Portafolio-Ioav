@@ -79,18 +79,18 @@ export const portfolioData: PortfolioData = {
           level: 90,
           levelText: "Avanzado",
         },
+        { name: "Python", level: 90, levelText: "Avanzado" },
+        {
+          name: "Bases de Datos",
+          subskills: ["PostgreSQL", "MySQL", "MongoDB"],
+          level: 90,
+          levelText: "Avanzado",
+        },
         {
           name: "Back-End",
           subskills: ["FastAPI", ".NET", "Node.js", "PHP", "APIs REST"],
           level: 70,
           levelText: "Intermedio",
-        },
-        { name: "Python", level: 90, levelText: "Avanzado" },
-        {
-          name: "Bases de Datos",
-          subskills: ["SQL", "MongoDB"],
-          level: 90,
-          levelText: "Avanzado",
         },
         {
           name: "Arquitectura de Software",
