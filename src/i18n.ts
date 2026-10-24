@@ -6,7 +6,7 @@ const resources = {
     translation: {
       navbar: {
         inicio: "Inicio",
-        acerca: "Sobre Míí",
+        acerca: "Sobre Mí",
         experiencia: "Experiencia",
         habilidades: "Skills",
         proyectos: "Proyectos",
@@ -30,7 +30,7 @@ const resources = {
         codePassion: "Productos Digitales",
       },
       about: {
-        tag: "Sobre Míí",
+        tag: "Sobre Mí",
         description:
           "Soy un profesional multidisciplinario con una visión integral del desarrollo digital. Actualmente curso una Especialización en Desarrollo de Software, fortaleciendo mis conocimientos en arquitectura, desarrollo e implementación de soluciones tecnológicas. Mi perfil combina habilidades técnicas en desarrollo front-end con una sólida comprensión del diseño centrado en el usuario y estrategias de e-commerce. Me apasiona crear productos digitales que no solo funcionen impecablemente, sino que ofrezcan experiencias memorables. Con experiencia en entornos empresariales reales, entiendo el puente entre las necesidades del negocio y la implementación técnica.",
         highlights: [
