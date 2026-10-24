@@ -79,6 +79,12 @@ export const portfolioData: PortfolioData = {
           level: 90,
           levelText: "Avanzado",
         },
+        {
+          name: "Back-End",
+          subskills: ["FastAPI", ".NET", "Node.js", "PHP", "APIs REST"],
+          level: 70,
+          levelText: "Intermedio",
+        },
         { name: "Python", level: 90, levelText: "Avanzado" },
         {
           name: "Bases de Datos",
@@ -86,13 +92,17 @@ export const portfolioData: PortfolioData = {
           level: 90,
           levelText: "Avanzado",
         },
-        { name: "Node.js", level: 70, levelText: "Intermedio" },
-        { name: "PHP", level: 70, levelText: "Intermedio" },
         {
-          name: "Desarrollo de Software",
-          subskills: ["SDD"],
-          level: 90,
-          levelText: "Avanzado",
+          name: "Arquitectura de Software",
+          subskills: ["Diseño de Sistemas", "Patrones de Diseño", "Monitoreo"],
+          level: 70,
+          levelText: "Intermedio",
+        },
+        {
+          name: "Cloud Computing",
+          subskills: ["AWS"],
+          level: 70,
+          levelText: "Intermedio",
         },
       ],
     },
@@ -112,9 +122,9 @@ export const portfolioData: PortfolioData = {
       skills: [
         {
           name: "Análisis de Datos",
-          subskills: ["R", "Excel"],
-          level: 70,
-          levelText: "Intermedio",
+          subskills: ["Power BI", "R", "Excel"],
+          level: 90,
+          levelText: "Avanzado",
         },
         {
           name: "Gestión de Proyectos",

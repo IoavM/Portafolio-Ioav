@@ -107,6 +107,12 @@ const resources = {
                 level: 90,
                 levelText: "Nivel alto",
               },
+              {
+                name: "Back-End",
+                subskills: ["FastAPI", ".NET", "Node.js", "PHP", "APIs REST"],
+                level: 70,
+                levelText: "Intermedio",
+              },
               { name: "Python", level: 90, levelText: "Nivel alto" },
               {
                 name: "Bases de datos",
@@ -114,11 +120,17 @@ const resources = {
                 level: 90,
                 levelText: "Nivel alto",
               },
-              { name: "PHP", level: 70, levelText: "Nivel Medio" },
-              { name: "Node.js", level: 70, levelText: "Nivel Medio" },
               {
-                name: "Desarrollo de Software",
-                subskills: ["SDD"],
+                name: "Arquitectura de Software",
+                subskills: ["Diseño de Sistemas", "Patrones de Diseño", "Monitoreo"],
+                level: 70,
+                levelText: "Intermedio",
+              },
+              {
+                name: "Cloud Computing",
+                subskills: ["AWS"],
+                level: 70,
+                levelText: "Intermedio",
               },
             ],
           },
@@ -137,9 +149,9 @@ const resources = {
             skills: [
               {
                 name: "Análisis de datos",
-                subskills: ["R", "Excel"],
-                level: 70,
-                levelText: "Nivel Medio",
+                subskills: ["Power BI", "R", "Excel"],
+                level: 90,
+                levelText: "Nivel alto",
               },
               {
                 name: "Gestión de proyectos",
@@ -422,6 +434,12 @@ const resources = {
                 level: 90,
                 levelText: "High Level",
               },
+              {
+                name: "Back-End",
+                subskills: ["FastAPI", ".NET", "Node.js", "PHP", "REST APIs"],
+                level: 70,
+                levelText: "Intermediate",
+              },
               { name: "Python", level: 90, levelText: "High Level" },
               {
                 name: "Databases",
@@ -429,11 +447,17 @@ const resources = {
                 level: 90,
                 levelText: "High Level",
               },
-              { name: "PHP", level: 70, levelText: "Mid Level" },
-              { name: "Node.js", level: 70, levelText: "Mid Level" },
               {
-                name: "Software Development",
-                subskills: ["SDD"],
+                name: "Software Architecture",
+                subskills: ["System Design", "Design Patterns", "Monitoring"],
+                level: 70,
+                levelText: "Intermediate",
+              },
+              {
+                name: "Cloud Computing",
+                subskills: ["AWS"],
+                level: 70,
+                levelText: "Intermediate",
               },
             ],
           },
@@ -452,9 +476,9 @@ const resources = {
             skills: [
               {
                 name: "Data Analysis",
-                subskills: ["R", "Excel"],
-                level: 70,
-                levelText: "Mid Level",
+                subskills: ["Power BI", "R", "Excel"],
+                level: 90,
+                levelText: "High Level",
               },
               {
                 name: "Project Management",
