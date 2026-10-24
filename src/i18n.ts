@@ -222,7 +222,7 @@ const resources = {
             title: "FileMaster",
             image: "/projects/filemaster.png",
             description:
-              "Plataforma web todo en uno para procesar PDFs (unir, dividir por rango), comprimir imágenes, eliminar fondos con IA y convertir formatos. Diseñado con UX premium y descarga automática en ZIP por lotes.",
+              "Herramienta web para procesar PDFs e imágenes que permite organizar documentos, comprimir archivos, convertir entre múltiples formatos y eliminar fondos con inteligencia artificial.",
             technologies: ["React", "TypeScript", "FastAPI", "Python", "TailwindCSS"],
             repository: "https://github.com/IoavM/FileMaster",
             demo: "https://file-master-chi.vercel.app/",
@@ -549,7 +549,7 @@ const resources = {
             title: "FileMaster",
             image: "/projects/filemaster.png",
             description:
-              "All-in-one web platform for PDF processing (merge, split), image compression, AI background removal, and format conversion. Designed with premium UX and batch ZIP downloading.",
+              "Web tool for processing PDFs and images that allows organizing documents, compressing files, converting between multiple formats, and removing backgrounds with artificial intelligence.",
             technologies: ["React", "TypeScript", "FastAPI", "Python", "TailwindCSS"],
             repository: "https://github.com/IoavM/FileMaster",
             demo: "https://file-master-chi.vercel.app/",

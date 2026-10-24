@@ -177,7 +177,7 @@ export const portfolioData: PortfolioData = {
       title: "FileMaster",
       image: "/projects/filemaster.png",
       description:
-        "Plataforma web todo en uno para procesar PDFs (unir, dividir por rango), comprimir imágenes, eliminar fondos con IA y convertir formatos. Diseñado con UX premium y descarga automática en ZIP por lotes.",
+        "Herramienta web para procesar PDFs e imágenes que permite organizar documentos, comprimir archivos, convertir entre múltiples formatos y eliminar fondos con inteligencia artificial.",
       technologies: ["React", "TypeScript", "FastAPI", "Python", "TailwindCSS"],
       repository: "https://github.com/IoavM/FileMaster",
       demo: "https://file-master-chi.vercel.app/",
