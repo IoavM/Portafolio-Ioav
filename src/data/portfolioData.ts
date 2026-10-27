@@ -75,7 +75,7 @@ export const portfolioData: PortfolioData = {
       skills: [
         {
           name: "Front-End",
-          subskills: ["React", "JavaScript", "HTML", "CSS"],
+          subskills: ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
           level: 90,
           levelText: "Avanzado",
         },

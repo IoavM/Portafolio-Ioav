@@ -103,7 +103,7 @@ const resources = {
             skills: [
               {
                 name: "Front-End",
-                subskills: ["React", "JavaScript", "HTML", "CSS"],
+                subskills: ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
                 level: 90,
                 levelText: "Nivel alto",
               },
@@ -430,7 +430,7 @@ const resources = {
             skills: [
               {
                 name: "Front-End",
-                subskills: ["React", "JavaScript", "HTML", "CSS"],
+                subskills: ["React", "TypeScript", "JavaScript", "HTML", "CSS"],
                 level: 90,
                 levelText: "High Level",
               },
