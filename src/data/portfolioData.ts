@@ -205,7 +205,7 @@ export const portfolioData: PortfolioData = {
       institution: "IBM",
       title: "Developing Front-End Apps with React",
       year: "2026",
-      status: "En curso",
+      status: "Completado",
       url: "https://courses.edx.org/certificates/4cfbfa08af3145079f855363b1263c8b",
     },
     {
@@ -214,6 +214,13 @@ export const portfolioData: PortfolioData = {
       year: "2026",
       status: "Completado",
       url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333",
+    },
+    {
+      institution: "Microsoft",
+      title: "Data Analyst",
+      year: "2026",
+      status: "Completado",
+      url: "https://credentials.edx.org/credentials/c6b955f8df15448990493bb8a8cfc012/",
     },
     {
       institution: "Universidad Autónoma de Madrid",

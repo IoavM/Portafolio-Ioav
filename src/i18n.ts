@@ -278,6 +278,13 @@ const resources = {
             url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333?_gl=1*1czq877*_gcl_au*MTcxMDI5NDIyMS4xNzgyOTY3MDY3*_ga*NDgzMDg0MTczLjE3ODI5NjcwNjc.*_ga_D3KS4KMDT0*czE3ODI5NjcwNjckbzEkZzEkdDE3ODI5NjcyMjkkajYwJGwwJGgw",
           },
           {
+            institution: "Microsoft",
+            title: "Data Analyst",
+            year: "2026",
+            status: "Completado",
+            url: "https://credentials.edx.org/credentials/c6b955f8df15448990493bb8a8cfc012/",
+          },
+          {
             institution: "Universidad Autónoma de Madrid",
             title: "Introducción a la Programación en C",
             year: "2021",
@@ -603,6 +610,13 @@ const resources = {
             year: "2026",
             status: "Completed",
             url: "https://courses.edx.org/certificates/c4b812aaa3ff47cb9b2c896c64cc1333?_gl=1*1czq877*_gcl_au*MTcxMDI5NDIyMS4xNzgyOTY3MDY3*_ga*NDgzMDg0MTczLjE3ODI5NjcwNjc.*_ga_D3KS4KMDT0*czE3ODI5NjcwNjckbzEkZzEkdDE3ODI5NjcyMjkkajYwJGwwJGgw",
+          },
+          {
+            institution: "Microsoft",
+            title: "Data Analyst",
+            year: "2026",
+            status: "Completed",
+            url: "https://credentials.edx.org/credentials/c6b955f8df15448990493bb8a8cfc012/",
           },
           {
             institution: "Universidad Autónoma de Madrid",
