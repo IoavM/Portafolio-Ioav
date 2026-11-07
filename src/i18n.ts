@@ -26,7 +26,7 @@ const resources = {
         previewCvAria: "Previsualizar CV",
         downloadCv: "Descargar CV",
         downloadCvAria: "Descargar CV en PDF",
-        codeRole: "Frontend & UX/UI",
+        codeRole: "Frontend & Software Developer | UI/UX Designer",
         codePassion: "Productos Digitales",
       },
       about: {
@@ -360,7 +360,7 @@ const resources = {
         previewCvAria: "Preview CV",
         downloadCv: "Download CV",
         downloadCvAria: "Download CV in PDF",
-        codeRole: "Frontend & UX/UI",
+        codeRole: "Frontend & Software Developer | UI/UX Designer",
         codePassion: "Digital Products",
       },
       about: {
